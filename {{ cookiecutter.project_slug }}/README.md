@@ -2,7 +2,7 @@
 
 {{ cookiecutter.project_description }}
 
-License: {{ cookiecutter.License }}
+License: {{ cookiecutter.license }}
 
 
 ## Getting Started
