@@ -226,4 +226,3 @@ pyrightconfig.json
 notebooks/playground/
 !notebooks/playground/.gitkeep
 playground.py
-{{ cookiecutter.license }}
