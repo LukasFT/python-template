@@ -220,5 +220,10 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,git,python,jupyternotebooks
 
+### Custom ###
 
+# Do not commit these
+notebooks/playground/
+!notebooks/playground/.gitkeep
 playground.py
+{{ cookiecutter.license }}

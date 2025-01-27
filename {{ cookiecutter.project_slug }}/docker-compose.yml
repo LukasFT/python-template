@@ -5,9 +5,9 @@ services:
       context: .
       dockerfile: ./Dockerfile
       args:
-        USER_UID: "${UID}"
-        USER_GID: "${GID}"
-    user: "${UID}:${GID}"
+        USER_UID: "${UID:-1000}"
+        USER_GID: "${GID:-1000}"
+    user: "${UID:-1000}:${GID:-1000}"
     volumes:
       - .:/app
 
@@ -24,4 +24,3 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
-

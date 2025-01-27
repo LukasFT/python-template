@@ -2,7 +2,7 @@ from functools import cache
 
 
 @cache  # Enable top-down memoization (Dynamic Programming)
-def fib(n: int):
+def fib(n: int) -> int:
     """Return the n-th Fibonacci number."""
     if n < 0:
         raise ValueError("n must be a non-negative integer.")
